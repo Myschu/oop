@@ -14,7 +14,7 @@ int main() {
 	string input = "";
 
 
-	cout << "Enter 'd' to increment the day, 'm' to increment the month or 'y' to increment the year. \nEnter 'e' to compare dates with todays date or enter 'q' to quit.\n";
+	cout << "Enter 'd' to increment the day, 'm' to increment the month or 'y' to increment the year. \nEnter 'e' to compare dates with tomorrow's date or enter 'q' to quit.\n";
 	while (input != "q") {
 		cin >> input;
 		if (input == "d") {
